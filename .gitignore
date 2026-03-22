@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment directories
+venv/
+.env/
+restaurant/Lib/
+restaurant/Scripts/
+restaurant/Include/
+
+# IDE/editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environments
+.env
+.env.*
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# FastAPI/Starlette
+*.coverage
+htmlcov/
+coverage.xml
